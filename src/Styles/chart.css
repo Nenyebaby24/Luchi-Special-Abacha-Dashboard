@@ -1,0 +1,44 @@
+.chart-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.chart-title {
+  margin-bottom: 20px;
+}
+
+.chart-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.chart-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-bar {
+  width: 40px;
+  background: #f846b4;
+  border-radius: 6px 6px 0 0;
+}
+
+.chart-label {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+  .chart-bar {
+    width: 28px;
+  }
+}
+

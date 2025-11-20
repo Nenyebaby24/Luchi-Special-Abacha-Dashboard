@@ -1,0 +1,31 @@
+.main {
+  flex: 1;
+  margin-left: 240px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* RESPONSIVE for the sidebar + cards */
+@media (max-width: 900px) {
+  .main {
+    margin-left: 0;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
