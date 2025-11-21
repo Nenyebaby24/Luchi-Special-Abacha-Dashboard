@@ -7,7 +7,7 @@ import Orders from "./Pages/Orders";
 import Products from "./Pages/Products";
 import Customers from "./Pages/Customers";
 
-import "./styles/global.css";
+import "./Styles/global.css";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
