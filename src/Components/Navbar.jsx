@@ -1,4 +1,4 @@
-import "../styles/navbar.css";
+import "../Sgityles/navbar.css";
 import { MdMenu } from "react-icons/md";
 
 function Navbar({ setSidebarOpen }) {

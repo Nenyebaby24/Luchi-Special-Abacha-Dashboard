@@ -1,4 +1,4 @@
-import "../styles/chart.css";
+import "../Styles/chart.css";
 
 function Chart({ data }) {
   return (

@@ -1,4 +1,4 @@
-import "../styles/sidebar.css";
+import "../Styles/sidebar.css";
 import { NavLink } from "react-router-dom";
 
 function Sidebar({ sidebarOpen, setSidebarOpen }) {

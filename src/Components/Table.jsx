@@ -1,4 +1,4 @@
-import "../styles/table.css";
+import "../Styles/table.css";
 
 function Table({ title, data }) {
   if (!data || data.length === 0) {

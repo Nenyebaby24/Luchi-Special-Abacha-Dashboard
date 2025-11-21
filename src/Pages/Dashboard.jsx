@@ -3,7 +3,7 @@ import Card from "../Components/Card";
 import Chart from "../Components/Chart";
 import analyticsData from "../Data/analytics";
 
-import "../styles/layout.css";
+import "../Styles/layout.css";
 
 function Dashboard({ setSidebarOpen }) {
   return (

@@ -1,6 +1,6 @@
 import Table from "../Components/Table";
 import customers from "../Data/customers";
-import "../styles/table.css";
+import "../Styles/table.css";
 
 function Customers() {
   return (
