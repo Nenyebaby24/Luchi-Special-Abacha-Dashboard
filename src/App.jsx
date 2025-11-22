@@ -14,12 +14,30 @@ function App() {
 
   return (
     <Router>
+      {/* BACK TO PORTFOLIO BUTTON */}
+      <a
+        href="https://your-portfolio-url.com"   // <-- replace with your real portfolio link
+        style={{
+          display: "inline-block",
+          margin: "20px",
+          fontSize: "18px",
+          fontWeight: "bold",
+          textDecoration: "none",
+          color: "#333",
+        }}
+      >
+        ← Back to Portfolio
+      </a>
+
       <div className="container">
         <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
         <div className="main-content">
           <Routes>
-            <Route path="/" element={<Dashboard setSidebarOpen={setSidebarOpen} />} />
+            <Route
+              path="/"
+              element={<Dashboard setSidebarOpen={setSidebarOpen} />}
+            />
             <Route path="/orders" element={<Orders />} />
             <Route path="/products" element={<Products />} />
             <Route path="/customers" element={<Customers />} />
@@ -31,3 +49,4 @@ function App() {
 }
 
 export default App;
+
