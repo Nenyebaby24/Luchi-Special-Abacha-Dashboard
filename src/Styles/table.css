@@ -47,7 +47,7 @@
   color: #fff;
 }
 .custom-table tbody tr:hover {
-  background: #fafafa;
+  cursor: pointer;
 }
 
 /* responsive */
